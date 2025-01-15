@@ -1,7 +1,7 @@
-/* App.css */
+
 body {
   font-family: "Roboto", Arial, sans-serif;
-  background-color: #121212; /* 어두운 배경 */
+  background-color: #121212; 
   color: #eaeaea;
   margin: 0;
   padding: 0;
@@ -12,26 +12,26 @@ body {
 }
 
 .container {
-  background: #1e1e1e; /* 다크 모드 패널 */
+  background: #1e1e1e; 
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
   text-align: center;
   width: 600px;
-  height: 80vh; /* 전체 화면 높이의 80% */
+  height: 80vh; 
   display: flex;
   flex-direction: column;
 }
 
 h1 {
   font-size: 24px;
-  color: #00ff99; /* 상단 텍스트 강조 */
+  color: #00ff99; 
   margin-bottom: 20px;
 }
 
 strong {
   font-size: 18px;
-  color: #ff4757; /* 로딩 텍스트 강조 */
+  color: #ff4757; 
 }
 
 input {
@@ -67,7 +67,7 @@ select option {
 
 .table-container {
   flex: 1;
-  overflow-y: auto; /* 세로 스크롤 */
+  overflow-y: auto; 
   border: 1px solid #333;
   border-radius: 4px;
 }
@@ -87,8 +87,8 @@ select option {
 .table th {
   position: sticky;
   top: 0;
-  background: #1e1e1e; /* 고정된 헤더 배경 */
-  color: #00ff99; /* 헤더 강조 */
+  background: #1e1e1e; 
+  color: #00ff99; 
 }
 
 .table td {
@@ -96,9 +96,9 @@ select option {
 }
 
 .table .positive {
-  color: #00ff99; /* 상승 값 */
+  color: #00ff99; 
 }
 
 .table .negative {
-  color: #ff4757; /* 하락 값 */
+  color: #ff4757; 
 }
